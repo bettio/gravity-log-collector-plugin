@@ -1,0 +1,11 @@
+#ifndef DEVICE_INFO_CONFIG_H
+#define DEVICE_INFO_CONFIG_H
+
+namespace StaticConfig {
+
+Q_DECL_CONSTEXPR const char *hemeraServicesPath() { return "@HEMERA_SERVICE_DIR@"; }
+Q_DECL_CONSTEXPR const char *gravityCenterPluginsPath() { return "@FULL_INSTALL_PLUGINS_DIR@"; }
+
+}
+
+#endif // DEVICE_INFO_CONFIG_H

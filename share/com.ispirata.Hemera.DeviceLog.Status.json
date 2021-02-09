@@ -1,0 +1,14 @@
+{
+   "interface_name": "com.ispirata.Hemera.DeviceLog.Status",
+   "version_major": 1,
+   "version_minor": 0,
+   "type": "properties",
+   "quality": "producer",
+   "mappings": [
+       {
+           "path": "/filterRules/%{ruleId}/%{filterKey}/value",
+           "type": "string",
+           "allow_unset": true
+       }
+   ]
+}

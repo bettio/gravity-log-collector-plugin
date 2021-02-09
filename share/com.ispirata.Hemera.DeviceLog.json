@@ -1,0 +1,64 @@
+{
+   "interface_name": "com.ispirata.Hemera.DeviceLog",
+   "version_major": 1,
+   "version_minor": 0,
+   "type": "datastream",
+   "quality": "producer",
+   "aggregate": true,
+   "mappings": [
+       {
+           "path": "/message",
+           "type": "string",
+           "reliability": "guaranteed",
+           "retention": "stored"
+       },
+       {
+           "path": "/timestamp",
+           "type": "datetime",
+           "reliability": "guaranteed",
+           "retention": "stored"
+       },
+       {
+           "path": "/monotonicTimestamp",
+           "type": "longinteger",
+           "reliability": "guaranteed",
+           "retention": "stored"
+       },
+       {
+           "path": "/applicationId",
+           "type": "string",
+           "reliability": "guaranteed",
+           "retention": "stored"
+       },
+       {
+           "path": "/pid",
+           "type": "integer",
+           "reliability": "guaranteed",
+           "retention": "stored"
+       },
+       {
+           "path": "/cmdLine",
+           "type": "string",
+           "reliability": "guaranteed",
+           "retention": "stored"
+       },
+       {
+           "path": "/category",
+           "type": "string",
+           "reliability": "guaranteed",
+           "retention": "stored"
+       },
+       {
+           "path": "/severity",
+           "type": "integer",
+           "reliability": "guaranteed",
+           "retention": "stored"
+       },
+       {
+           "path": "/bootId",
+           "type": "string",
+           "reliability": "guaranteed",
+           "retention": "stored"
+       }
+   ]
+}
